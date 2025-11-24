@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "6804a421-45d9-49e9-9bc6-c5b3942a6ad5",
+		"name": "mini-rag-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50319890",
+		"_collection_link": "https://mm5018008-2450083.postman.co/workspace/mohamed-mustafa's-Workspace~2bb6ea24-8cdb-48cf-808e-a47ac5d445b4/collection/50319890-6804a421-45d9-49e9-9bc6-c5b3942a6ad5?action=share&source=collection_link&creator=50319890"
+	},
+	"item": [
+		{
+			"name": "welcome request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": "http://127.0.0.1:8000"
+		}
+	]
+}
